@@ -4,7 +4,7 @@ import {fileContent} from "./fs.ts";
 
 const primitiveTypes = ['string', 'number', 'boolean', 'Date'];
 
-export async function xml2json<T extends BaseType>(xml: string, tsDefinitionPath?: string): Promise<T> {
+export async function xmlToObject<T extends BaseType>(xml: string, tsDefinitionPath?: string): Promise<T> {
     const obj = await parseStringPromise(xml, {
         explicitArray: true
     });
