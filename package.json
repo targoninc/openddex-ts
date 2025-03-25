@@ -3,16 +3,20 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "genmodels": "bun run cxsd https://service.ddex.net/xml/ern/431/release-notification.xsd --out-ts src/models --out-js src/models"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "vitest": "^3.0.9"
+    "cxsd": "^0.1.1",
+    "vitest": "^3.0.9",
+    "xml2js": "^0.6.2"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
+    "@types/xml2js": "^0.4.14",
     "x2js": "^3.4.4"
   }
 }
