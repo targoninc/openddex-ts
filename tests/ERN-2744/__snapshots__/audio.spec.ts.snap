@@ -1,0 +1,2050 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Converts XML to JSON 1`] = `
+{
+  "NewReleaseMessage": {
+    "DealList": {
+      "ReleaseDeal": [
+        {
+          "Deal": [
+            {
+              "DealTerms": {
+                "CommercialModelType": [
+                  "SubscriptionModel",
+                  "AdvertisementSupportedModel",
+                ],
+                "TerritoryCode": "JP",
+                "UseType": [
+                  "ConditionalDownload",
+                  "Stream",
+                ],
+                "ValidityPeriod": {
+                  "StartDate": "2004-04-01",
+                },
+              },
+            },
+            {
+              "DealTerms": {
+                "CommercialModelType": "PayAsYouGoModel",
+                "PriceInformation": {
+                  "PriceCode": {
+                    "_Namespace": "PADPIDA2013042401U",
+                    "__text": "AAAA",
+                    "toString": [Function],
+                  },
+                },
+                "TerritoryCode": "JP",
+                "UseType": [
+                  "PermanentDownload",
+                  "ConditionalDownload",
+                ],
+                "ValidityPeriod": {
+                  "StartDate": "2004-04-01",
+                },
+              },
+            },
+          ],
+          "DealReleaseReference": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5",
+            "R6",
+            "R7",
+            "R8",
+            "R9",
+            "R10",
+            "R11",
+            "R12",
+            "R13",
+            "R14",
+            "R15",
+            "R16",
+            "R17",
+            "R18",
+            "R19",
+            "R20",
+            "R21",
+          ],
+        },
+        {
+          "Deal": {
+            "DealTerms": {
+              "CommercialModelType": "PayAsYouGoModel",
+              "PriceInformation": {
+                "PriceCode": {
+                  "_Namespace": "PADPIDA2013042401U",
+                  "__text": "AAAA",
+                  "toString": [Function],
+                },
+              },
+              "TerritoryCode": "JP",
+              "UseType": [
+                "PermanentDownload",
+                "ConditionalDownload",
+              ],
+              "ValidityPeriod": {
+                "StartDate": "2004-04-01",
+              },
+            },
+          },
+          "DealReleaseReference": "R0",
+        },
+      ],
+    },
+    "MessageHeader": {
+      "MessageCreatedDateTime": "2014-09-24T14:57:25+01:00",
+      "MessageId": "Test1.1",
+      "MessageRecipient": {
+        "PartyId": "PADPIDA2009101501Y",
+        "PartyName": {
+          "FullName": "Sony DADC",
+        },
+      },
+      "MessageSender": {
+        "PartyId": "PADPIDA2013042401U",
+        "PartyName": {
+          "FullName": "UniversalMusicGroup",
+        },
+      },
+      "MessageThreadId": "Test1",
+    },
+    "PartyList": {
+      "Party": [
+        {
+          "PartyName": [
+            {
+              "FullName": "Saeko Shu",
+              "FullNameIndexed": "Shu, Saeko",
+            },
+            {
+              "FullName": "しゅうさえこ",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "PartyReference": "PSaekoShu",
+        },
+        {
+          "PartyName": {
+            "FullName": "EMI MUSIC JAPAN INC.",
+          },
+          "PartyReference": "PEMI",
+        },
+      ],
+    },
+    "ReleaseList": {
+      "Release": {
+        "DisplayArtist": {
+          "ArtistPartyReference": "PSaekoShu",
+          "DisplayArtistRole": "MainArtist",
+          "_SequenceNumber": "1",
+        },
+        "DisplayArtistName": [
+          {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "_IsDefault": "true",
+            "_LanguageAndScriptCode": "ja-Latn",
+            "__text": "Saeko Shu",
+            "toString": [Function],
+          },
+          {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "_LanguageAndScriptCode": "ja-Jpan",
+            "__text": "しゅうさえこ",
+            "toString": [Function],
+          },
+          {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "_LanguageAndScriptCode": "ja-Kana",
+            "__text": "ｼｭｳｻｴｺ",
+            "toString": [Function],
+          },
+        ],
+        "DisplayGenre": {
+          "GenreText": "J-Pop",
+          "_ApplicableTerritoryCode": "Worldwide",
+        },
+        "DisplayTitle": [
+          {
+            "TitleText": "Yume no Hajmari",
+            "_ApplicableTerritoryCode": "Worldwide",
+            "_IsDefault": "true",
+          },
+          {
+            "TitleText": "夢のはじまり",
+            "_ApplicableTerritoryCode": "Worldwide",
+            "_LanguageAndScriptCode": "ja-Jpan",
+          },
+          {
+            "TitleText": "ﾕﾒﾉﾊｼﾞﾏﾘ",
+            "_ApplicableTerritoryCode": "Worldwide",
+            "_LanguageAndScriptCode": "ja-Kana",
+          },
+        ],
+        "DisplayTitleText": "Yume no Hajmari",
+        "Duration": "PT36M30S",
+        "IsMultiArtistCompilation": "false",
+        "ParentalWarningType": "NoAdviceAvailable",
+        "RelatedRelease": {
+          "ReleaseId": {
+            "ICPN": "04988006110809",
+          },
+          "ReleaseRelationshipType": "IsDigitalEquivalentToPhysical",
+        },
+        "ReleaseId": {
+          "ICPN": "00094631432057",
+        },
+        "ReleaseLabelReference": {
+          "_ApplicableTerritoryCode": "Worldwide",
+          "__text": "PEMI",
+          "toString": [Function],
+        },
+        "ReleaseReference": "R0",
+        "ReleaseType": "Album",
+        "ResourceGroup": {
+          "DisplayTitle": {
+            "TitleText": "Component 1",
+          },
+          "LinkedReleaseResourceReference": "A22",
+          "ResourceGroupContentItem": [
+            {
+              "ReleaseResourceReference": "A1",
+              "SequenceNumber": "1",
+            },
+            {
+              "ReleaseResourceReference": "A2",
+              "SequenceNumber": "2",
+            },
+            {
+              "ReleaseResourceReference": "A3",
+              "SequenceNumber": "3",
+            },
+            {
+              "ReleaseResourceReference": "A4",
+              "SequenceNumber": "4",
+            },
+            {
+              "ReleaseResourceReference": "A5",
+              "SequenceNumber": "5",
+            },
+            {
+              "ReleaseResourceReference": "A6",
+              "SequenceNumber": "6",
+            },
+            {
+              "ReleaseResourceReference": "A7",
+              "SequenceNumber": "7",
+            },
+            {
+              "ReleaseResourceReference": "A8",
+              "SequenceNumber": "8",
+            },
+            {
+              "ReleaseResourceReference": "A9",
+              "SequenceNumber": "9",
+            },
+            {
+              "ReleaseResourceReference": "A10",
+              "SequenceNumber": "10",
+            },
+            {
+              "ReleaseResourceReference": "A11",
+              "SequenceNumber": "11",
+            },
+            {
+              "ReleaseResourceReference": "A12",
+              "SequenceNumber": "12",
+            },
+            {
+              "ReleaseResourceReference": "A13",
+              "SequenceNumber": "13",
+            },
+            {
+              "ReleaseResourceReference": "A14",
+              "SequenceNumber": "14",
+            },
+            {
+              "ReleaseResourceReference": "A15",
+              "SequenceNumber": "15",
+            },
+            {
+              "ReleaseResourceReference": "A16",
+              "SequenceNumber": "16",
+            },
+            {
+              "ReleaseResourceReference": "A17",
+              "SequenceNumber": "17",
+            },
+            {
+              "ReleaseResourceReference": "A18",
+              "SequenceNumber": "18",
+            },
+            {
+              "ReleaseResourceReference": "A19",
+              "SequenceNumber": "19",
+            },
+            {
+              "ReleaseResourceReference": "A20",
+              "SequenceNumber": "20",
+            },
+            {
+              "ReleaseResourceReference": "A21",
+              "SequenceNumber": "21",
+            },
+          ],
+          "SequenceNumber": "1",
+        },
+      },
+      "TrackRelease": [
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09404900_R1",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R1",
+          "ReleaseResourceReference": "A1",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09404910_R2",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R2",
+          "ReleaseResourceReference": "A2",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09404920_R3",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R3",
+          "ReleaseResourceReference": "A3",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09404930_R4",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R4",
+          "ReleaseResourceReference": "A4",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09404940_R5",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R5",
+          "ReleaseResourceReference": "A5",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09404950_R6",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R6",
+          "ReleaseResourceReference": "A6",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09404960_R7",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R7",
+          "ReleaseResourceReference": "A7",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09404970_R8",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R8",
+          "ReleaseResourceReference": "A8",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09404980_R9",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R9",
+          "ReleaseResourceReference": "A9",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09404990_R10",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R10",
+          "ReleaseResourceReference": "A10",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09405000_R11",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R11",
+          "ReleaseResourceReference": "A11",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09405010_R12",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R12",
+          "ReleaseResourceReference": "A12",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09405020_R13",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R13",
+          "ReleaseResourceReference": "A13",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09405030_R14",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R14",
+          "ReleaseResourceReference": "A14",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09405040_R15",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R15",
+          "ReleaseResourceReference": "A15",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09405050_R16",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R16",
+          "ReleaseResourceReference": "A16",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09405060_R17",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R17",
+          "ReleaseResourceReference": "A17",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09405070_R18",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R18",
+          "ReleaseResourceReference": "A18",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09332840_R19",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R19",
+          "ReleaseResourceReference": "A19",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09405080_R20",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R20",
+          "ReleaseResourceReference": "A20",
+        },
+        {
+          "DisplayGenre": {
+            "GenreText": "J-Pop",
+            "_ApplicableTerritoryCode": "Worldwide",
+          },
+          "ReleaseId": {
+            "ProprietaryId": {
+              "_Namespace": "PADPIDA2013042401U",
+              "__text": "00094631432057_JPTO09332830_R21",
+              "toString": [Function],
+            },
+          },
+          "ReleaseLabelReference": {
+            "_ApplicableTerritoryCode": "Worldwide",
+            "__text": "PEMI",
+            "toString": [Function],
+          },
+          "ReleaseReference": "R21",
+          "ReleaseResourceReference": "A21",
+        },
+      ],
+    },
+    "ResourceList": {
+      "Image": {
+        "ParentalWarningType": "NotExplicit",
+        "ResourceId": {
+          "ProprietaryId": {
+            "_Namespace": "PADPIDA2013042401U",
+            "__text": "PACKSHOT:0094631432057",
+            "toString": [Function],
+          },
+        },
+        "ResourceReference": "A22",
+        "TechnicalDetails": {
+          "File": {
+            "URI": "0094631432057.jpg",
+          },
+          "TechnicalResourceDetailsReference": "T22",
+        },
+        "Type": "FrontCoverImage",
+      },
+      "SoundRecording": [
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Yume no Lullaby",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "夢のララバイ",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Yume no Lullaby",
+          "Duration": "PT2M28S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A1",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09404900",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Yume no Hajimari - Kaze no Okuri Mono (Introduction)",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "夢のはじまり－風のおくりもの（イントロダクション）",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Yume no Hajimari - Kaze no Okuri Mono (Introduction)",
+          "Duration": "PT1M42S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A2",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09404910",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "-Haru- Soushunfu",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "-春-　早春賦",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "-Haru- Soushunfu",
+          "Duration": "PT1M12S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A3",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09404920",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Dokoka de Haru ga",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～どこかで春が",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Dokoka de Haru ga",
+          "Duration": "PT1M22S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A4",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09404930",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Haru ga Kita",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～春が来た",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Haru ga Kita",
+          "Duration": "PT1M32S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A5",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09404940",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Haru no Ogawa (Monbushou Shouka)",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～春の小川（文部省唱歌）",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Haru no Ogawa (Monbushou Shouka)",
+          "Duration": "PT1M14S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A6",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09404950",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "-Natsu- Umi (Monbushou Shouka)",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "-夏-　海（文部省唱歌）",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "-Natsu- Umi (Monbushou Shouka)",
+          "Duration": "PT1M9S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A7",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09404960",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Ware wa Umi no Ko",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～我は海の子",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Ware wa Umi no Ko",
+          "Duration": "PT1M12S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A8",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09404970",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "SubTitle": "Instrumental",
+              "TitleText": "Natsu no Omoide",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～夏の思い出 (インストゥルメンタル)",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Natsu no Omoide (Instrumental)",
+          "Duration": "PT1M14S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A9",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09404980",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Natsu wa Konu",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～夏は来ぬ",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Natsu wa Konu",
+          "Duration": "PT1M30S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A10",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09404990",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "-Aki- Chiisai Aki Mitsuketa",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "-秋-　ちいさい秋みつけた",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "-Aki- Chiisai Aki Mitsuketa",
+          "Duration": "PT1M5S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A11",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09405000",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Sato no Aki",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～里の秋",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Sato no Aki",
+          "Duration": "PT58S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A12",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09405010",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Ryoshuu",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～旅愁",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Ryoshuu",
+          "Duration": "PT1M21S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A13",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09405020",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Aka Tonbo",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～赤とんぼ",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Aka Tonbo",
+          "Duration": "PT1M45S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A14",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09405030",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "-Fuyu- Fuyu no Yoru (Monbushou Shouka)",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "-冬-　冬の夜（文部省唱歌）",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "-Fuyu- Fuyu no Yoru (Monbushou Shouka)",
+          "Duration": "PT1M26S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A15",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09405040",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Pechka",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～ペチカ",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Pechka",
+          "Duration": "PT1M5S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A16",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09405050",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Yuki no Furu Machi wo",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～雪の降る街を",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Yuki no Furu Machi wo",
+          "Duration": "PT1M11S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A17",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09405060",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Komoriuta",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "～こもりうた",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Komoriuta",
+          "Duration": "PT2M12S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A18",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09405070",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Aerobics Mama",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "エアロビ　ママ",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Aerobics Mama",
+          "Duration": "PT3M24S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A19",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09332840",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Mother's Song -Kodomotachi e-",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "Ｍｏｔｈｅｒ’ｓ　Ｓｏｎｇ－こどもたちへ－",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Mother's Song -Kodomotachi e-",
+          "Duration": "PT3M42S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A20",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09405080",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+        {
+          "Contributor": {
+            "ContributorPartyReference": "PSaekoShu",
+            "Role": {
+              "Value": "Artist",
+            },
+            "_SequenceNumber": "1",
+          },
+          "CreationDate": {
+            "_IsApproximate": "true",
+            "__text": "1993-12-01",
+            "toString": [Function],
+          },
+          "DisplayArtist": {
+            "ArtistPartyReference": "PSaekoShu",
+            "DisplayArtistRole": "MainArtist",
+            "_SequenceNumber": "1",
+          },
+          "DisplayArtistName": [
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+              "_LanguageAndScriptCode": "ja-Latn",
+              "__text": "Saeko Shu",
+              "toString": [Function],
+            },
+            {
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+              "__text": "しゅうさえこ",
+              "toString": [Function],
+            },
+          ],
+          "DisplayTitle": [
+            {
+              "TitleText": "Kitto Shiawase (NHK Minna no Uta)",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_IsDefault": "true",
+            },
+            {
+              "TitleText": "きっと　しあわせ（ＮＨＫみんなのうた）",
+              "_ApplicableTerritoryCode": "Worldwide",
+              "_LanguageAndScriptCode": "ja-Jpan",
+            },
+          ],
+          "DisplayTitleText": "Kitto Shiawase (NHK Minna no Uta)",
+          "Duration": "PT3M46S",
+          "IsInstrumental": "false",
+          "LanguageOfPerformance": "ja",
+          "ParentalWarningType": "NoAdviceAvailable",
+          "ResourceReference": "A21",
+          "SoundRecordingEdition": {
+            "PLine": {
+              "PLineText": "(P) 1994 EMI Music Japan Inc.",
+              "Year": "1994",
+            },
+            "ResourceId": {
+              "ISRC": "JPTO09332830",
+            },
+          },
+          "Type": "MusicalWorkSoundRecording",
+        },
+      ],
+    },
+    "_AvsVersionId": "7",
+    "_LanguageAndScriptCode": "en",
+    "_ReleaseProfileVersionId": "Audio",
+    "__prefix": "ern",
+    "_xmlns:avs": "http://ddex.net/xml/avs/avs",
+    "_xmlns:ern": "http://ddex.net/xml/ern/431",
+    "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "_xsi:schemaLocation": "http://ddex.net/xml/ern/431 http://ddex.net/xml/ern/431/release-notification.xsd",
+  },
+}
+`;
