@@ -1,0 +1,32 @@
+HEAD	dsrf/1.3/1.4.1/1.3	AudioVisualProfile	1.2	SR_201601_152	2016-01-25T09:18:22Z	1	1	2015-12-01	2015-12-31	PADPIDA2015777777X	Test Company	MyFavoriteWebSite	PADPIDA2015999999A	SampleRecipientNameA	SampleSocietyA|SampleSocietyB																								
+#HEAD		Profile	ProfileVersion	MessageId	MessageCreatedDateTime	FileNumber	NumberOfFiles	UsageStartDate	UsageEndDate	SenderPartyId	SenderName	ServiceDescription	RecipientPartyId	RecipientName	RepresentedRepertoire																								
+#SY06.02	SummaryRecordId	DistributionChannel	DistributionChannelDPID	CommercialModel	UseType	Territory	ServiceDescription	Usages	Subscribers	Currency	NumberOfReleases	NetRevenue	IndirectNetRevenue	PreviewAvailable	ExchangRateBaseCurrency	ExchangeRate	ViewerHours																						
+#RE02	BlockId	ReleaseReference	DspSubReleaseId	ProprietarySubReleaseId	UsedResources																																		
+#RE03.02	BlockId	ReleaseReference	DSPReleaseId	ProprietaryReleaseId	ICPN	Title	SubTitle	SeriesTitle	SeasonNumber	DisplayArtistName	DisplayArtistPartyId	ReleaseType	DataProviderName	VideoCategory	EpisodeNumber	UserChannelName																							
+#AS04	BlockId	ResourceReference	DspResourceId	RessourceType																																			
+#CU01.01	BlockId	CueResourceReference	CueStartTime	CueDuration	ReferencedCreationISRC	ReferencedCreationISWC	ReferencedCreationTitle	ReferencedCreationDisplayArtistName	ReferencedCreationDisplayArtistPartyId	ReferencedCreationContributorName	ReferencedCreationContributorPartyId	ReferencedCreationComposerAuthorName	ReferencedCreationComposerAuthorPartyId	ReferencedCreationArrangerName	ReferencedCreationArrangerPartyId	CueSheetDataProviderName																							
+#CU02	BlockId	ResourceReference	DspWorkId	ProprietaryWorkId	Title	WorkType	CreationOrReleaseDate	WorkContributorName	WorkContributorId	Role	StartTime	Duration	LengthOfText	LanguageAndCharacterCoding	PublisherName	PublisherId	ProducerName	ProducerId																					
+#SU04.02	BlockId	SummaryRecordId	SalesTranscactionId	TransactedRelease	TransactedResource	DrmEnforcementType	VideoDefinitionType	CodingType	BitRate	OriginalBroadcastChannel	OriginalBroadcastDateTime	IsRoyaltyBearing	SalesUpgrade	Usages	Returns	DurationUsed	PriceConsumerPaidExcSalesTax	PromotionalActivity	OfferStartDate	OfferEndDate	OfferURL	OriginalBroadcastDateTime	UseType																
+#SU06	BlockId	SummaryRecordId	SalesTranscactionId	ResourceReference	Usages	ServiceURL																																	
+#FOOT	NumberOfLinesInFile	NumberOfLinesInReport	NumberOfSummaryRecords	NumberOfBlocksInFile	NumberOfBlocksInReport																																		
+SY06.02	1	DistributionChanelA	PADPIDA2015777777X	AdvertisementSupportedModel	Stream	FR	Radio France Website	160000		EUR	4	21.54	7.22	false			PT1H12M																						
+# Web site sample text																																							
+AS04	1	A1	Text																																				
+CU02	1	A1	1234254554		Le Lion	GraphicalWork	1958	JOSEPH KESSEL	IPI::00016143420	Author		PT2M5S	1500	fr	Gallimard	ISBN::978-2-07	FTVStudio	ISNI::00000000352444																					
+SU06	1	1	ST1	A1	14560																																		
+# Web site sample with image																																							
+AS04	2	A2	Image																																				
+CU02	2	A2	2134235243	GETTY::P15423890432|ref::1548934566	Stade de France	GraphicalWork	1995	Michel Macary	ISNI::0000000081266409	Architect		PT2M5S			Gallimard	ISNI::000000007654345	FTVStudio	ISNI::00000000352333																					
+SU06	2	1	ST2	A2	14560	https://www.google.com/search?q=alpes+francaises&safe=active&rlz=1C1GCEU_enFR865FR865&sxsrf=ALeKk03htJmdauGHbz5QES521UGtl1BQEg:1595509753622&tbm=isch&source=iu&ictx=1&fir=SMbkGLMOmpaERM%252CKSPGSk-duqsbXM%252C_&vet=1&usg=AI4_-kTuGFgF7gJ-9JKLxbhJYfclsQ7JbQ&sa=X&ved=2ahUKEwjVp-aAuePqAhXHy4UKHfpFCfIQ9QEwAnoECAoQHA#imgrc=SMbkGLMOmpaERM																																	
+# Web site sample with an audio podcast																																							
+AS04	3	A3	SoundRecording																																				
+CU01.01	3	A3		PT20M30S			Supersail					Guillaume Erner	ISNI::0000000114514388			Radio France Production																							
+SU06	3	1	ST3	A3	14560																																		
+# Web site sample with video and music and image																																							
+RE03.02	3	R1	412447300	FV::E456R897Z435	2786290000000	Le meilleur de Clint Eastwood						Bundle	FNAC Video	TVProgramme																									
+AS03.02	3	A4	412447300A	45600001F7650000Q00000000X	10-4130/8B0F-9AC7-543C-E643-7A15-O	Filmax::112	FeatureFilm	Impitoyable		Unforgiven			Drama	PT2H11M																									
+CU01.01	3	A4	PT23M01S	PT7M24S	GBF079011270	T0120210181	Two Step	Dave Matthews Band		David J. Matthews|Leroi Moore|Stefan Lessard|Boyd Tinsley|Carter Beauford	ISNI::0000000114514377|ISNI::0000000057307629|ISNI::0000000050952908|ISNI::0000000040440650|ISNI::0000000119323588																												
+CU02	3	A4	2134235243	GETTY::P15423890432|ref::1548934566	Stade de France	GraphicalWork	1995	Michel Macary	ISNI::0000000081266409	Architect		PT2M5S			Gallimard	ISNI::000000007654345	FTVStudio	ISNI::00000000352333																					
+CU02	3	A4	1234254554		Le Lion	LiteraryWork	1958	JOSEPH KESSEL	IPI::00016143420	Author		PT2M5S	1500	fr	Gallimard	ISBN::978-2-07	FTVStudio	ISNI::00000000352444																					
+SU04.02	3	2	1	R1		TRUE	HighDefinition	Lossless	4.5			true	false	100	0		15.99		2010-12-01																				
+FOOT	32	32	1	3	3																																		

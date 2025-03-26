@@ -1,0 +1,116 @@
+HEAD	dsrf/1.3/1.4.1/1.3	UgcProfile	1.3	1084891	2018-01-19T15:26:35Z	1	1	2019-10-01	2019-12-31	PADPIDA2013020802I	YouTube	Usage-SubscriptionMusic		PartnerA	PartnerA|Residual									
+#HEAD	MessageVersion	Profile	ProfileVersion	MessageId	MessageCreatedDateTime	FileNumber	NumberofFiles	UsageStartDate	UsageEndDate	SenderPartyId	SenderName	ServiceDescription	RecipientPartyId	RecipientName	RepresentedRepertoire									
+#SY04.02	SummaryRecordId	DistributionChannel	DistributionChannelDPID	CommercialModel	UseType	Territory	ServiceDescription	SubscriberType	Subscribers	SubPeriodStartDate	SubPeriodEndDate	TotalUsagesInSubPeriod	TotalUsagesInReportingPeriod	CurrencyOfReporting	CurrencyOfTransaction	ExchangeRate	ConsumerPaidUnitPrice	NetRevenue	MusicUsagePercentage					
+#SY09.01	SummaryRecordId	CommercialModel	UseType	Territory	ServiceDescription	RightsController	RightsControllerPartyId	RightsType	TotalUsages	AllocatedUsages	NetRevenue	IndirectNetRevenue	RightsControllerMarketShare	CurrencyOfReporting	CurrencyOfTransaction	ExchangeRate	RightsTypePercentage	SubPeriodStartDate	SubPeriodEndDate	ParentSummaryRecordId				
+#SY05.03	SummaryRecordId	DistributionChannel	DistributionChannelDPID	CommercialModel	UseType	Territory	ServiceDescription	RightsController	RightsControllerPartyId	RightsType	TotalUsages	AllocatedUsages	MusicUsageRatio	AllocatedNetRevenue	AllocatedRevenue	RightsControllerMarketShare	CurrencyOfReporting	CurrencyOfTransaction	ExchangeRate		SubPeriodStartDate	SubPeriodEndDate	ContentCategory	RightsTypePercentage
+#AS01.02	BlockId	ResourceReference	DspResourceId	ISRC	Title	SubTitle	DisplayArtistName	DisplayArtistPartyId	Duration	ResourceType	IsMasterRecording	IsSubjectToOwnershipConflict	LastConflictCheck											
+#LC01	BlockId	ResourceReference	DspResourceId	ISRC	Title	SubTitle	DisplayArtistName	DisplayArtistPartyId	Duration	ResourceType	ISWC	ComposorAuthorName	ComposorAuthorPartyId	ArrangerName	ArrangerPartyId	MusicPublisherName	MusicPublisherPartyId	WorkContributorName	WorkContributorPartyId	ProprietaryWorkId	DataProviderName	IsSubjectToOwnershipConflict		
+#RU01.02	BlockId	SummaryRecordId	DspReleaseId	Usages	ContentCategory	ParentResourceReference																		
+#SU03.02	BlockId	SalesTransactionId	SummaryRecordId	DspResourceId	Usages	NetRevenue	ValidityPeriodStart	ValidityPeriodEnd	ContentCategory	IsRoyaltyBearing														
+#ST01	BlockId	ParentSalesTransactionId	SummaryRecordId	Usages																				
+#LI01.03	BlockId	SummaryRecordId	RightsController	RightsControllerPartyId	RightsControllerWorkID	RightShare%	RightType	AllocatedNetRevenue	AllocatedAmount	AllocatedNetUsages	ParentSalesTransactionId	LicensorDataRecordId												
+#MW01.02	BlockId	DspWorkId	ISWC	Title	SubTitle	ComposerAuthorName	ComposerAuthorPartyId	ArrangerName	ArrangerPartyId	MusicPublisherName	MusicPublisherPartyId	WorkContributorName	WorkContributorPartyId	DataProviderName	ProprietaryWorkId	ResourceReference	ParentLicensorDataRecordId	ParentMasterlistId						
+#FOOT	NumberOfLinesInFile	NumberOfLinesInReport	NumberOfSummaryRecords	NumberOfBlocksInFile	NumberOfBlocksInReport																			
+SY04.02	27			SubscriptionModel	Stream	AT	Usage-SubscriptionMusic	Individual monthly	219855	2019-10-01	2019-10-31	54638628		USD	EUR			1629340.43	0.16					
+SY04.02	28			SubscriptionModel	Stream	AT	Usage-SubscriptionMusic	Individual monthly	219403	2019-11-01	2019-11-30	43454234		USD	EUR			1329340.98	0.13					
+SY04.02	29			SubscriptionModel	Stream	AT	Usage-SubscriptionMusic	Individual monthly	482312	2019-12-01	2019-12-31	54534664		USD	EUR			1229340.98	0.12					
+SY04.02	30			SubscriptionModel	Stream	AT	Usage-SubscriptionMusic	Family	378593	2019-10-01	2019-10-31	67753564		USD	EUR			1129340.56	0.11					
+SY04.02	31			SubscriptionModel	Stream	AT	Usage-SubscriptionMusic	Family	475435	2019-11-01	2019-11-30	32239765		USD	EUR			1729340.54	0.17					
+SY04.02	32			SubscriptionModel	Stream	AT	Usage-SubscriptionMusic	Family	467432	2019-12-01	2019-12-31	54466774		USD	EUR			1229340.98	0.12					
+SY04.02	33			SubscriptionModel	Stream	AT	Usage-SubscriptionMusic	Student	345676	2019-10-01	2019-10-31	32357644		USD	EUR			1029340.98	0.11					
+SY04.02	34			SubscriptionModel	Stream	AT	Usage-SubscriptionMusic	Student	323431	2019-11-01	2019-11-30	45656346		USD	EUR			1329340.56	0.12					
+SY04.02	35			SubscriptionModel	Stream	AT	Usage-SubscriptionMusic	Student	432345	2019-12-01	2019-12-31	45543565		USD	EUR			1429340.98	0.16					
+SY09.01	12	SubscriptionModel		AT	Usage-SubscriptionMusic	PartnerA		PerformingRight	3623.94	3623.94	0.52		0.34	USD	EUR	1.12		2019-10-01	2019-10-31					
+SY09.01	13	SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		MechanicalRight	3623.94	3623.94	0.73		0.23	USD	EUR	1.12		2019-10-01	2019-10-31					
+SY09.01	14	SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		PerformingRight	233.94	233.94	0.44		0.23	USD	EUR	1.12		2019-10-01	2019-10-31					
+SY09.01	15	SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		MechanicalRight	3.46	3.46	0.12		0.34	USD	EUR	1.12		2019-10-01	2019-10-31					
+SY09.01	16	SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		PerformingRight	3.46	3.46	0.10		0.32	USD	EUR	1.12		2019-10-01	2019-10-31					
+SY09.01	17	SubscriptionModel		AT	Usage-SubscriptionMusic	PartnerA		PerformingRight	3623.94	3623.94	0.52		0.34	USD	EUR	1.12		2019-11-01	2019-11-30					
+SY09.01	18	SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		MechanicalRight	3623.94	3623.94	0.73		0.23	USD	EUR	1.12		2019-11-01	2019-11-30					
+SY09.01	19	SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		PerformingRight	233.94	233.94	0.44		0.23	USD	EUR	1.12		2019-11-01	2019-11-30					
+SY09.01	20	SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		MechanicalRight	3.46	3.46	0.12		0.34	USD	EUR	1.12		2019-11-01	2019-11-30					
+SY09.01	21	SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		PerformingRight	3.46	3.46	0.10		0.32	USD	EUR	1.12		2019-11-01	2019-11-30					
+SY09.01	22	SubscriptionModel		AT	Usage-SubscriptionMusic	PartnerA		PerformingRight	3623.94	3623.94	0.52		0.34	USD	EUR	1.12		2019-12-01	2019-12-31					
+SY09.01	23	SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		MechanicalRight	3623.94	3623.94	0.73		0.23	USD	EUR	1.12		2019-12-01	2019-12-31					
+SY09.01	24	SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		PerformingRight	233.94	233.94	0.44		0.23	USD	EUR	1.12		2019-12-01	2019-12-31					
+SY09.01	25	SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		MechanicalRight	3.46	3.46	0.12		0.34	USD	EUR	1.12		2019-12-01	2019-12-31					
+SY09.01	26	SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		PerformingRight	3.46	3.46	0.10		0.32	USD	EUR	1.12		2019-12-01	2019-12-31					
+SY05.03	2304227523			SubscriptionModel		AT	Usage-SubscriptionMusic	PartnerA		PerformingRight	0	3390.00		2.00	20.00	0	USD	EUR	1.12		2019-10-01	2019-10-31	Music	
+SY05.03	2			SubscriptionModel		AT	Usage-SubscriptionMusic	PartnerA		PerformingRight	0	233.94		1.00	10.00	0	USD	EUR	1.12		2019-10-01	2019-10-31	GEMusic	
+SY05.03	2129326154			SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		MechanicalRight	0	3390.00		0.00	0.00	0	USD	EUR	1.12		2019-10-01	2019-10-31	Music	
+SY05.03	3			SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		MechanicalRight	0	233.94		0.00	0.00	0	USD	EUR	1.12		2019-10-01	2019-10-31	GEMusic	
+SY05.03	5			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		MechanicalRight	0	1.00		0.00	0.00	0	USD	EUR	1.12		2019-10-01	2019-10-31	Music	
+SY05.03	6			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		MechanicalRight	0	2.46		0.00	0.00	0	USD	EUR	1.12		2019-10-01	2019-10-31	GEMusic	
+SY05.03	7			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		PerformingRight	0	1.00		0.00	0.00	0	USD	EUR	1.12		2019-10-01	2019-10-31	Music	
+SY05.03	8			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		PerformingRight	0	2.46		0.00	0.00	0	USD	EUR	1.12		2019-10-01	2019-10-31	GEMusic	
+SY05.03	9			SubscriptionModel		AT	Usage-SubscriptionMusic	all		UserDefined	3391	0.00		2.00	0.00	0	USD	EUR	1.12		2019-10-01	2019-10-31	Music	
+SY05.03	10			SubscriptionModel		AT	Usage-SubscriptionMusic	all		UserDefined	235	0.00		1.00	0.00	0	USD	EUR	1.12		2019-10-01	2019-10-31	GEMusic	
+SY05.03	2304227523			SubscriptionModel		AT	Usage-SubscriptionMusic	PartnerA		PerformingRight	0	3390.00		2.00	20.00	0	USD	EUR	1.12		2019-11-01	2019-11-30	Music	
+SY05.03	2			SubscriptionModel		AT	Usage-SubscriptionMusic	PartnerA		PerformingRight	0	233.94		1.00	10.00	0	USD	EUR	1.12		2019-11-01	2019-11-30	GEMusic	
+SY05.03	2129326154			SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		MechanicalRight	0	3390.00		0.00	0.00	0	USD	EUR	1.12		2019-11-01	2019-11-30	Music	
+SY05.03	3			SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		MechanicalRight	0	233.94		0.00	0.00	0	USD	EUR	1.12		2019-11-01	2019-11-30	GEMusic	
+SY05.03	5			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		MechanicalRight	0	1.00		0.00	0.00	0	USD	EUR	1.12		2019-11-01	2019-11-30	Music	
+SY05.03	6			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		MechanicalRight	0	2.46		0.00	0.00	0	USD	EUR	1.12		2019-11-01	2019-11-30	GEMusic	
+SY05.03	7			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		PerformingRight	0	1.00		0.00	0.00	0	USD	EUR	1.12		2019-11-01	2019-11-30	Music	
+SY05.03	8			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		PerformingRight	0	2.46		0.00	0.00	0	USD	EUR	1.12		2019-11-01	2019-11-30	GEMusic	
+SY05.03	9			SubscriptionModel		AT	Usage-SubscriptionMusic	all		UserDefined	3391	0.00		2.00	0.00	0	USD	EUR	1.12		2019-11-01	2019-11-30	Music	
+SY05.03	10			SubscriptionModel		AT	Usage-SubscriptionMusic	all		UserDefined	235	0.00		1.00	0.00	0	USD	EUR	1.12		2019-11-01	2019-11-30	GEMusic	
+SY05.03	2304227523			SubscriptionModel		AT	Usage-SubscriptionMusic	PartnerA		PerformingRight	0	3390.00		2.00	20.00	0	USD	EUR	1.12		2019-12-01	2019-12-31	Music	
+SY05.03	2			SubscriptionModel		AT	Usage-SubscriptionMusic	PartnerA		PerformingRight	0	233.94		1.00	10.00	0	USD	EUR	1.12		2019-12-01	2019-12-31	GEMusic	
+SY05.03	2129326154			SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		MechanicalRight	0	3390.00		0.00	0.00	0	USD	EUR	1.12		2019-12-01	2019-12-31	Music	
+SY05.03	3			SubscriptionModel		AT	Usage-SubscriptionMusic	Residual		MechanicalRight	0	233.94		0.00	0.00	0	USD	EUR	1.12		2019-12-01	2019-12-31	GEMusic	
+SY05.03	5			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		MechanicalRight	0	1.00		0.00	0.00	0	USD	EUR	1.12		2019-12-01	2019-12-31	Music	
+SY05.03	6			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		MechanicalRight	0	2.46		0.00	0.00	0	USD	EUR	1.12		2019-12-01	2019-12-31	GEMusic	
+SY05.03	7			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		PerformingRight	0	1.00		0.00	0.00	0	USD	EUR	1.12		2019-12-01	2019-12-31	Music	
+SY05.03	8			SubscriptionModel		AT	Usage-SubscriptionMusic	Conflict		PerformingRight	0	2.46		0.00	0.00	0	USD	EUR	1.12		2019-12-01	2019-12-31	GEMusic	
+SY05.03	9			SubscriptionModel		AT	Usage-SubscriptionMusic	all		UserDefined	3391	0.00		2.00	0.00	0	USD	EUR	1.12		2019-12-01	2019-12-31	Music	
+SY05.03	10			SubscriptionModel		AT	Usage-SubscriptionMusic	all		UserDefined	235	0.00		1.00	0.00	0	USD	EUR	1.12		2019-12-01	2019-12-31	GEMusic	
+AS01.02	4	A546589396439454	A546589396439454		gottabeyou master__ 422hq 10M	-			PT0H0M0S	SoundRecording														
+MW01.02	4	A1001	T0722313974	THUG RIGHT HERE																				
+#LC01	4	A546589396439454	A546589396439454		gottabeyou master__ 422hq 10M	-			PT0H0M0S	SoundRecording	123456XYZ	composor1	ISNI::00000000123456789	arranger1	ISNI::00000000123456789	musicpublisher1	ISNI::00000000987654321	workcontributor1	ISNI::000000008849305					
+#LC01	4	A546589396439454	A546589396439454		gottabeyou master__ 422hq 10M	-			PT0H0M0S	SoundRecording	123456XYZ	composor2	ISNI::0000000017583933	arranger2	ISNI::0000000085940275	musicpublisher2	ISNI::0000000043452321	workcontributor2	ISNI::000000008849305					
+#LC01	4	A546589396439454	A546589396439454		gottabeyou master__ 422hq 10M	-			PT0H0M0S	SoundRecording	123456XYZ	composor1	ISNI::00000000123456789	arranger1	ISNI::00000000123456789	musicpublisher1	ISNI::00000000987654321	workcontributor1	ISNI::000000008849305					
+RU01.02	4	9	zdKTgwffmdo|TVhxXk73xAw|aNEIpMiARdo|iEvNRCiNcCc|	3387|73|47|36	Music	A546589396439454																		
+RU01.02	4	10	ESpR-SJCYew|M5K7TnyNkQY|jYevRNRCp0Q|YKifhs8rE-0|xnToTXZCMYA|n9HgTq5WxmE|wbOpzWX7lhE|mFNqYw80N2Y|91xAc83RntQ|c3-UeJo6Hgs|Nvfb7rHEBEw|avnHvc4aid4|nBNEU34e6nA|g1F5TW3OAjU|5Z-4vT8FiCY|0bIjSJqI2Lk|f2gq4gVaZoM|hzQoOAnxrAg|ckFnMfATtl4|Dlw3WPYMLl4|CDVazIH2IeQ|F-AOh-IPPe0|MDaIRFqrk5Q|DiNm_5hFK_w	31|23|22|16|13|12|9|8|7|5|3|3|3|2|2|1|1|1|1|1|1|1|1|1	GEMusic	A546589396439454																		
+SU03.02	4	2304227523_A546589396439454_1_274_365	9	A546589396439454	3390	0	2019-10-01	2019-10-31	Music															
+ST01	4	2304227523_A546589396439454_1_274_365	27	1390																				
+ST01	4	2304227523_A546589396439454_1_274_365	30	2000																				
+LI01.03	4	2304227523	PartnerA		100146374779	1	PerformingRight	2	20	3390	2304227523_A546589396439454_1_274_365	1												
+MW01.02	4	A962303667022871		_____		MASTA WU|P.K|__																		
+LI01.03	4	2129326154	Residual			1	MechanicalRight	0	0	3390	2304227523_A546589396439454_1_274_365	2												
+MW01.02	4	A962303667022871	T0722313974	THUG RIGHT HERE																				
+SU03.02	4	2304227523_A546589396439454_2_274_365	10	A546589396439454	233	0	2019-10-01	2019-10-31	GEMusic															
+ST01	4	2304227523_A546589396439454_2_274_365	27	133																				
+ST01	4	2304227523_A546589396439454_2_274_365	33	100																				
+LI01.03	4	2	PartnerA		100146374779	1	PerformingRight	1	10	233.94	2304227523_A546589396439454_2_274_365	3												
+MW01.02	4	A962303667022871		_____		MASTA WU|P.K|__																		
+LI01.03	4	3	Residual			1	MechanicalRight	0	0	233.94	2304227523_A546589396439454_2_274_365	4												
+MW01.02	4	A962303667022871	T0722313974	THUG RIGHT HERE																				
+AS01.02	4	A712649957310716	A712649957310716	USWB11300618	Home		Blake Shelton		PT0H0M0S	SoundRecording														
+MW01.02	4	A943379329600036	T9010101889	HOME		BUBLE MICHAEL STEVEN|CHANG ALAN|FOSTER GILLIES AMY SKYLARK|UNIVERSAL MUSIC PUBLISHING KOREA|WARNER/CHAPPELL MUSIC KOREA INC																		
+RU01.02	4	9	TACv2Caslqs|YO89OdmRKGU	2|1	Music	A712649957310716																		
+RU01.02	4	10	szFbuXXAuao|5MtY7ZKdD7Q	1|1	GEMusic	A712649957310716																		
+SU03.02	4	2304227523_A712649957310716_1_324_324	9	A712649957310716	1	0	2019-11-20	2019-11-20	Music															
+ST01	4	2304227523_A712649957310716_1_324_324	28	1																				
+LI01.03	5	7	PartnerA		100146374779	1	PerformingRight	0	0	0	2304227523_A712649957310716_1_324_324	5												
+LI01.03	5	5	PartnerA		100146374779	1	MechanicalRight	0	0	0	2304227523_A712649957310716_1_324_324	6												
+MW01.02	5	A943379329600036	T9010101889	HOME		BUBLE MICHAEL STEVEN|CHANG ALAN|FOSTER GILLIES AMY SKYLARK|UNIVERSAL MUSIC PUBLISHING KOREA|WARNER/CHAPPELL MUSIC KOREA INC																		
+LI01.03	5	7	PartnerB		03400J004782	1	PerformingRight	0	0	0	2304227523_A712649957310716_1_324_324	7												
+LI01.03	5	5	PartnerB		03400J004782	1	MechanicalRight	0	0	0	2304227523_A712649957310716_1_324_324	8												
+MW01.02	5	A943379329600036	T9010101889	HOME		BUBLE MICHAEL STEVEN|CHANG ALAN|FOSTER GILLIES AMY SKYLARK|UNIVERSAL MUSIC PUBLISHING KOREA|WARNER/CHAPPELL MUSIC KOREA INC																		
+LI01.03	5	7	Conflict		03400J004782	2	PerformingRight	0	0	1	2304227523_A712649957310716_1_324_324	9												
+LI01.03	5	5	Conflict		03400J004782	2	MechanicalRight	0	0	1	2304227523_A712649957310716_1_324_324	0												
+MW01.02	5	A943379329600036	T9010101889	HOME		BUBLE MICHAEL STEVEN|CHANG ALAN|FOSTER GILLIES AMY SKYLARK|UNIVERSAL MUSIC PUBLISHING KOREA|WARNER/CHAPPELL MUSIC KOREA INC																		
+SU03.02	5	2304227523_A712649957310716_2_325_359	10	A712649957310716	2	0	2019-12-21	2019-12-25	GEMusic															
+ST01	5	2304227523_A712649957310716_2_325_359	29	1																				
+ST01	5	2304227523_A712649957310716_2_325_359	35	1																				
+LI01.03	5	8	PartnerA		100146374779	1	PerformingRight	0	0	0	2304227523_A712649957310716_2_325_359	11												
+LI01.03	5	6	PartnerA		100146374779	1	MechanicalRight	0	0	0	2304227523_A712649957310716_2_325_359	12												
+MW01.02	5	A943379329600036	T9010101889	HOME		BUBLE MICHAEL STEVEN|CHANG ALAN|FOSTER GILLIES AMY SKYLARK|UNIVERSAL MUSIC PUBLISHING KOREA|WARNER/CHAPPELL MUSIC KOREA INC																		
+LI01.03	5	8	PartnerB		03400J004782	1	PerformingRight	0	0	0	2304227523_A712649957310716_2_325_359	13												
+LI01.03	5	6	PartnerB		03400J004782	1	MechanicalRight	0	0	0	2304227523_A712649957310716_2_325_359	14												
+MW01.02	5	A943379329600036	T9010101889	HOME		BUBLE MICHAEL STEVEN|CHANG ALAN|FOSTER GILLIES AMY SKYLARK|UNIVERSAL MUSIC PUBLISHING KOREA|WARNER/CHAPPELL MUSIC KOREA INC																		
+LI01.03	5	8	Conflict		03400J004782	2	PerformingRight	0	0	2.46	2304227523_A712649957310716_2_325_359	15												
+LI01.03	5	6	Conflict		03400J004782	2	MechanicalRight	0	0	2.46	2304227523_A712649957310716_2_325_359	16												
+MW01.02	5	A943379329600036	T9010101889	HOME		BUBLE MICHAEL STEVEN|CHANG ALAN|FOSTER GILLIES AMY SKYLARK|UNIVERSAL MUSIC PUBLISHING KOREA|WARNER/CHAPPELL MUSIC KOREA INC																		
+FOOT	66	66	21	2	2																			

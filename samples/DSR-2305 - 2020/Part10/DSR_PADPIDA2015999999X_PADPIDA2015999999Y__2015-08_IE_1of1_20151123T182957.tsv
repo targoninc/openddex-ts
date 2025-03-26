@@ -1,0 +1,19 @@
+HEAD	dsrf/3.2/1.4.1/1.2	MasterlistProfile	1.1.1	Test-1	2015-11-23T18:29:57Z	1	1	2015-08-01	2015-08-31	PADPIDA2015999999Y	DSRFTestCompany	AdFunded	PADPIDA2015999999X									
+#HEAD	MessageVersion	Profile	ProfileVersion	MessageId	MessageCreatedDateTime	FileNumber	NumberOfFiles	UsageStartDate	UsageEndDate	SenderPartyId	SenderName	ServiceDescription	RecipientPartyId	RecipientName	RepresentedRepertoire							
+#SY11.01	SummaryRecordId	DistributionChannel	DistributionChannelDPID	CommercialModel	UseType	Territory	ServiceDescription	UsageForPrioritisaiton														
+#RE01.02	BlockId	ReleaseReference	DspReleaseId	ProprietaryReleaseId	CatalogNumber	ICPN	DisplayArtistName	DisplayArtistPartyId	Title	SubTitle	ReleaseType	Label	Pline	DataProvider	DataProviderName	ReleaseDate						
+#AS02.03	BlockId	ResourceReference	DspResourceId	ISRC	Title	SubTitle	DisplayArtistName	DisplayArtistPartyId	Duration	ResourceType	ISWC	ComposerAuthor	ComposerAuthorPartyId	Arranger	ArrangerPartyId	MusicPublisher	MusicPublisherPartyId	WorkContributor	WorkContributorPartyId	ProprietaryWorkId	IsMasterRecording	IsSubjectToOwnershipConflict
+#ML01.01	BlockId	SummaryRecordId	ResourceReference	UsagesForPrioritisation	PercentileForPrioritisation	UnclaimedPercentage	MasterlistId															
+#MW01.02	BlockId	DspWorkId	ISWC	Title	SubTitle	ComposerAuthor	ComposerAuthorPartyId	Arranger	ArrangerPartyId	MusicPublisher	MusicPublisherPartyId	WorkContributor	WorkContributorPartyId	DataProviderName	ProprietaryWorkId	ResourceReference	ParentLicensorDataRecordId	ParentMasterlistId				
+#FOOT	NumberOfLinesInFile	NumberOfLinesInReport	NumberOfSummaryRecords	NumberOfBlocksInFile	NumberOfBlocksInReport																	
+SY11.01	S1	DSRFTestCompany	PADPIDA2015999999X	AdvertisementSupportedModel	ConditionalDownload	IE	Test service	1000														
+RE01.02	1	R1	04312ef08dfd4ce984d70da69e8f10e6	SonyMusicEntertainment::G010003372874T		731453000000	Leikeli47 feat. Biker Boy Pug		Rip The Summer Up		Album	Sony Music Entertainment	"(P) 2015 Hard Cover LLC & RCA Records, a division of Sony Music Entertainment"	SME								
+AS02.03	1	A1	d37700594f044c19a48b1ecde9d96176	USRC11501628	Rip The Summer Up		Leikeli47 feat. Biker Boy Pug		PT199S	SoundRecording		AaronRenner|Hasben Jones										FALSE
+ML01.01	1	S1	A1	750	23	25	1															
+MW01.02	1	Work1	T1234567890	Rip the summer up	(Clean Version)	AaronRenner|Hasben Jones								LicensorA		A1		1				
+MW01.02	1	Work2	T1234567890	Rip The Summet Up		AaronRenner|Hasben Jones								LicensorB		A1		1				
+AS02.03	1	A2	a23520059444c19a48b1ecd765ededa1	USRC11501629	Fuck The Summer Up		Leikeli47 feat. Biker Boy Pug		PT199S	SoundRecording		AaronRenner|Hasben Jones										FALSE
+ML01.01	1	S1	A2	250	23	33.33	2															
+MW01.02	1	Work1	T1234567891	Fuck the summer up	(Explicit Version)	AaronRenner|Hasben Jones								LicensorA		A2		2				
+MW01.02	1	Work2	T1234567891	F**K The Summet Up		AaronRenner|Hasben Jones								LicensorB		A2		2				
+FOOT	20	20	1	1	1																	

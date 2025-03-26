@@ -1,0 +1,9 @@
+Each sample comes in two files: one *.tsv file containing the data in a valid
+DSR format and an *.xsls file for human consumption.
+
+Note: there are currently only samples for Multi-Record Block Variants (MRBV)
+available. Single-Record Block Variant (SRBV) samples will follow in due course.
+
+There are also no samples available for Parts 6 (Royalty Reporting) and 11 
+(Basic Audio Profile for the Mechanical Licensing Collective).
+

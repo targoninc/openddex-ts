@@ -1,0 +1,41 @@
+HEAD	dsrf/1.3/1.4.1/1.1	RadioBroadcastProfile	1.1.1	317154308	2015-11-23T18:29:57Z	1	1	2014-12-28	2015-03-28	PADPIDA2008120501W	Apple Inc.	Beats													
+#HEAD	MessageVersion	Profile	ProfileVersion	MessageId	MessageCreatedDateTime	FileNumber	NumberOfFiles	UsageStartDate	UsageEndDate	SenderPartyId	SenderName	ServiceDescription	RecipientPartyId	RecipientName	RepresentedRepertoire										
+#SY08.01	SummaryRecordId	DistributionChannel	DistributionChannelDPID	ServiceDescription	BroadcastChannel	CommercialModel 	UseType 	Territory 	NumberOfBroadcasts	Listeners	ListenerHours	CurrencyOfReporting	NetRevenue 	InirectValue	RightsController	RightsControllerPartyId	AllocatedRevenue	RIghtsType	AllocatedNetRevenue	RightsControllerAllocatedNumberOfBroadcasts	AddionalData	CurrencyOfTransaction	ExchangeRate	RightsTypePercentage	
+#RE01.02	BlockId 	ReleaseReference 	DspReleaseId 	ProprietaryReleaseId 	CatalogNumber	ICPN 	DisplayArtistName 	DisplayArtistPartyId 	Title 	SubTitle 	ReleaseType 	Label 	PLine 	DataProvider	ReleaseDate										
+#AS02.03	BlockId 	ResourceReference 	DspResourceId 	ISRC 	Title 	SubTitle 	DisplayArtistName 	DisplayArtistPartyId 	Duration 	ResourceType	ISWC 	ComposerAuthor	ComposerAuthorPartyId 	Arranger	ArrangerPartyId	MusicPublisher	MusicPublisherPartyId	WorkContributor	WorkContributorPartyId	ProprietaryWorkId	IsMasterRecording	IsSubjectToOwnershipConflict	LastConflictCheck		
+#SU05.01	BlockId 	SummaryRecordId	SalesTransactionId 	TransactedResource	IsRoyaltyBearing 	NumberOfBroadcasts	PromotionalActivity																		
+#FOOT	NumberOfLinesInFile	NumberOfLinesInReport	NumberOfSummaryRecords	NumberOfBlocksInFile	NumberOfBlocksInReport																				
+SY08.01	1			Beats	Beats	AdvertisementSupportedModel	NonInteractiveStream	US	2792	245	1023	USD	24459.25				24459.25		24459.25						
+RE01.02	1	RL1037165563	1037165563			075679928214	Ty Dolla $ign		Free TC		Album	Atlantic Records													
+AS02.03	1	RC1037165564	1037165564	USAT21503263	"LA (feat. Kendrick Lamar, Brandy & James Fauntleroy)"		Ty Dolla $ign		PT0H5M7S	SoundRecording												false			
+AS02.03	1	RC1037165565	1037165565	USAT21503264	Saved (feat. E-40)		Ty Dolla $ign		PT0H2M58S	SoundRecording												false			
+AS02.03	1	RC1037165566	1037165566	USAT21503265	Straight Up (feat. Jagged Edge)		Ty Dolla $ign		PT0H5M1S	SoundRecording												false			
+AS02.03	1	RC1037165567	1037165567	USAT21503266	Solid (feat. Babyface)		Ty Dolla $ign		PT0H4M19S	SoundRecording												false			
+AS02.03	1	RC1037165572	1037165572	USAT21503271	Guard Down (feat. Kanye West & Diddy)		Ty Dolla $ign		PT0H4M56S	SoundRecording												false			
+AS02.03	1	RC1037165573	1037165573	USAT21503272	Sitting Pretty (feat. Wiz Khalifa)		Ty Dolla $ign		PT0H3M26S	SoundRecording												false			
+AS02.03	1	RC1037165574	1037165574	USAT21501637	When I See Ya (feat. Fetty Wap)		Ty Dolla $ign		PT0H3M34S	SoundRecording												false			
+AS02.03	1	RC1037165575	1037165575	USAT21501457	Blase (feat. Future & Rae Sremmurd)		Ty Dolla $ign		PT0H4M45S	SoundRecording												false			
+SU05.01	1	1	36460094656	RC1037165564	true	9																			
+SU05.01	1	1	36460094660	RC1037165565	true	1																			
+SU05.01	1	1	36460083587	RC1037165566	true	3																			
+SU05.01	1	1	36460083585	RC1037165567	true	18																			
+SU05.01	1	1	36460083589	RC1037165572	true	8																			
+SU05.01	1	1	36460094658	RC1037165573	true	2																			
+SU05.01	1	1	36460094662	RC1037165574	true	3																			
+SU05.01	1	1	36460083591	RC1037165575	true	12																			
+RE01.02	2	RL1048034378	1048034378			888915151181	Cuz Lightyear		Cuz		Album	Rich Black Trash													
+AS02.03	2	RC1048034536	1048034536	USUYG1082792	C World		Cuz Lightyear		PT0H2M52S	SoundRecording												false			
+AS02.03	2	RC1048034537	1048034537	USUYG1082793	Reccless		Cuz Lightyear		PT0H4M39S	SoundRecording												false			
+AS02.03	2	RC1048034538	1048034538	USUYG1082794	Wright Ave (feat. Dre Moon)		Cuz Lightyear		PT0H3M13S	SoundRecording												false			
+AS02.03	2	RC1048034542	1048034542	USUYG1082795	Beaucoup		Cuz Lightyear		PT0H3M54S	SoundRecording												false			
+AS02.03	2	RC1048034545	1048034545	USUYG1082798	Trapaphobia		Cuz Lightyear		PT0H3M51S	SoundRecording												false			
+SU05.01	2	1	888915000000	RC1048034536	true	1																			
+SU05.01	2	1	888915000000	RC1048034537	true	2																			
+SU05.01	2	1	888915000000	RC1048034538	true	2																			
+SU05.01	2	1	888915000000	RC1048034542	true	2																			
+SU05.01	2	1	888915000000	RC1048034545	true	2																			
+AS02.03	3	RL1.295301	1.295301		Remember You		Spooky Black		PT0H2M14S	SoundRecording												false			
+SU05.01	3	1	36460080489	RL1.295301	true	2																			
+AS02.03	4	RL1.297969	1.297969		Eyes On You 2		Davinche		PT0H4M0S	SoundRecording												false			
+SU05.01	4	1	36460081823	RL1.297969	true	2																			
+FOOT	41	41	1	4	4																				

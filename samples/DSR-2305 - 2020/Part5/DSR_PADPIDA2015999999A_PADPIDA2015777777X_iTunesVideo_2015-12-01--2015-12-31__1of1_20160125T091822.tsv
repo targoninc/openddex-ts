@@ -1,0 +1,126 @@
+HEAD	dsrf/1.3/1.4.1/1.3	AudioVisualProfile	1.2	SR_201601_152	2016-01-25T09:18:22Z	1	1	2015-12-01	2015-12-31	PADPIDA2015777777X	Test Company	iTunesVideo	PADPIDA2015999999A	SampleRecipientNameA	SampleSocietyA|SampleSocietyB																
+#HEAD		Profile	ProfileVersion	MessageId	MessageCreatedDateTime	FileNumber	NumberOfFiles	UsageStartDate	UsageEndDate	SenderPartyId	SenderName	ServiceDescription	RecipientPartyId	RecipientName	RepresentedRepertoire																
+#SY06.02	SummaryRecordId	DistributionChannel	DistributionChannelDPID	CommercialModel	UseType	Territory	ServiceDescription	Usages	Subscribers	Currency	NumberOfReleases	NetRevenue	IndirectNetRevenue	PreviewAvailable	ExchangRateBaseCurrency	ExchangeRate	ViewerHours														
+#RE02	BlockId	ReleaseReference	DspSubReleaseId	ProprietarySubReleaseId	UsedResources																										
+#RE03.02	BlockId	ReleaseReference	DSPReleaseId	ProprietaryReleaseId	ICPN	Title	SubTitle	SeriesTitle	SeasonNumber	DisplayArtistName	DisplayArtistPartyId	ReleaseType	DataProviderName	VideoCategory	EpisodeNumber	UserChannelName															
+#AS03.02	BlockId	ResourceReference	DspResourceId	ISAN	EIDR	ProprietaryId	VideoType	Title	SubTitle	OriginalTitle	SeasonNumber	EpisodeNumber	Genre	Duration	ProducerName	ProducerPartyId	DirectorName	DirectorPartyId	ActorName	ActorPartyId	LanguageLocalizationType	HasCaptioning	HasAudioDescription	LanguageOfPerformance	LanguageOfDubbing	DateOfProductionOrRelease	CountryOfProduction	OriginalBroadcastDateTime	ProductionCompanyName	ProductionCompanyPartyId	CueSheetDataProviderName
+#CU01.01	BlockId	CueResourceReference	CueStartTime	CueDuration	ReferencedCreationISRC	ReferencedCreationISWC	ReferencedCreationTitle	ReferencedCreationDisplayArtistName	ReferencedCreationDisplayArtistPartyId	ReferencedCreationContributorName	ReferencedCreationContributorPartyId	ReferencedCreationComposerAuthorName	ReferencedCreationComposerAuthorPartyId	ReferencedCreationArrangerName	ReferencedCreationArrangerPartyId	CueSheetDataProviderName															
+#CU02	BlockId	ResourceReference	DspWorkId	ProprietaryWorkId	Title	WorkType	CreationOrReleaseDate	WorkContributorName	WorkContributorId	Role	StartTime	Duration	LengthOfText	LanguageAndCharacterCoding	PublisherName	PublisherId	ProducerName	ProducerId													
+#SU04.02	BlockId	SummaryRecordId	SalesTranscactionId	TransactedRelease	TransactedResource	IsDRMEnforced	VideoDefinitionType	CodingType	BitRate	OriginalBroadcastChannel	OriginalBroadcastDateTime	IsRoyaltyBearing	SalesUpgrade	Usages	Returns	DurationUsed	PriceConsumerPaidExcSalesTax	PromotionalActivity	OfferStartDate	OfferEndDate	OfferURL	OriginalBroadcastDateTime	UseType								
+#FOOT	NumberOfLinesInFile	NumberOfLinesInReport	NumberOfSummaryRecords	NumberOfBlocksInFile	NumberOfBlocksInReport																										
+SY06.02	1	DistributionChanelA	PADPIDA2015777777X	PayAsYouGoModel	PermanentDownload	FR	Video	678		EUR	6	4896.1		true			PT10H														
+SY06.02	2	DistributionChanelA	PADPIDA2015777777X	SubscriptionModel	Stream	FR	Video streaming	137	50	EUR	5	118.49		true			PT1H10M														
+SY06.02	3	DistributionChanelA	PADPIDA2015777777X	AdvertisementSupportedModel	Stream	FR	Video streaming free	102		EUR	4	21.54	7.22	false			PT5H1S														
+# Feature film sample																															
+RE03.02	1	R1	412447392	ABC::8504	134567890123	[Rec]				Paco Plaza	ISNI::0000000121306269	FeatureFilm	Wild Side Video SAS	Movie																	
+AS03.02	1	A1	412447392A	00000001F7650000Q00000000X	10.5240/6D88-FAB2-687E-6B0D-2A30-W	Filmax::666	FeatureFilm	[Rec]		[Rec]			Action	PT1H16M	CASTELAO PRODUCCIONES		Jaume Balaguer|Paco Plaza	ISNI::0000000121417209|ISNI::0000000121306269	Manuela Velasco|Javier Botet|Pablo Rosso		Subtitled	TRUE	FALSE	es	fr	2007	ES	2008-06-21			
+SU04.02	1	1	1	R1		TRUE	HighDefinition	Lossless	4.5			true	false	100	0		7.99		2010-12-01												
+SU04.02	1	3	2	R1		TRUE	StandardDefinition	Lossless	4.5			true	false	200	0	PT1H15M	6.95		2010-12-01												
+# Partial Serie Sample																															
+RE03.02	2	R1	1576823	ABC::GREYS_ANATOMY_1002		Grey's Anatomy	Grey's Anatomy	Grey's Anatomy - Season 12	12	Elen Pompeo	ISNI::0000000119471951	Series	ABC Studios	TVProgramme																	
+AS03.02	2	S12E8	15768231H		10.3340/F54C-6D56-E1A2-3F44-A865-O	ABC::GREYS_ANATOMY_1002_12_8	Episode	Things We Lost in the Fire		Things We Lost in the Fire	12	8	Drama	PT43M	ABC Studios	ISNI::0000000106582812	Rob Corn	ISNI::0000000118052739	Elen Pompeo|Justin Chambers|James Picken Jr.|Jessica Capshaw	ISNI::0000000119471951|ISNI::0000000080573853||ISNI::0000000120024016	Dubbed	FALSE	TRUE	en	fr	2015	US	2010-08-30			
+AS03.02	2	S12E12	15768231L	00000002E60F00000000000003	10.3340/F54C-6D56-E1A2-3F44-A865-O	ABC::GREYS_ANATOMY_1002_12_12	Episode	My Next Life		My Next Life	12	12	Drama	PT43M	ABC Studios	ISNI::0000000106582812	Chandra Wilson		Elen Pompeo|Justin Chambers|James Picken Jr.|Jessica Capshaw	ISNI::0000000119471951|ISNI::0000000080573853||ISNI::0000000120024016	Dubbed	FALSE	TRUE	en	fr	2016	US	2016-04-23			
+RE02	2	SR1	1576823		S12E8|S12E12																										
+SU04.02	2	1	1	R1		FALSE	HighDefinition		7.5			true	false	22	0		3.46														
+SU04.02	2	3	2		S12E8	FALSE		Lossless	7.5			true	false	20	0		1.73	Special Offer	2010-12-01	2016-12-31	http://www.MySampleOffer.com/Drama/V789872										
+SU04.02	2	3	3		S12E8	FALSE		Lossless	7.5			true	false	20	0		1.73	Special Offer	2010-12-01	2016-12-31	http://www.MySampleOffer.com/Drama/V10224321										
+# Documentary					9012345678901																										
+RE03.02	3	R1	1584052	NG::DEEPSEA_CHALLENGE_2003		DEEPSEA CHALLENGE	L'AVENTURE D'UNE VIE			James Cameron	ISNI::0000000121463344 	Documentary	National Geographic	Nature																	
+AS03.02	3	D1	1584052A		10.5240/F125-0412-F1A7-5A04-03A0-A	NG::DEEPSEA_CHALLENGE_2003A|CNC::A-2014-001-879-432	Documentary	Deepsea Challenge		Deepsea Challenge			Documentary	PT90M	National Geographic	ISNI::0000000121946610 	John Bruno|Andrew Wight|Ray Quint	ISNI::0000000113663215||	James Cameron|Frank Lolito|Lachlan Woods	ISNI::0000000121463344||	Dubbed	FALSE	TRUE	en	fr	2014	US				
+SU04.02	3	1	2		D1	FALSE			7.5			true	false	50	0	PT45M	3.46														
+# Musical Work Clip																															
+RE03.02	4	R1	1805211	PARLOPHONE::HYMN_FOR_THE_WEEKEND_6001		HYMN FOR THE WEEKEND				Beyonce	ISNI::0000000114914936	VideoSingle	Parlophone	Video																	
+AS03.02	4	M1	1805211A			PARLOPHONE::HYMN_FOR_THE_WEEKEND_6001	MusicalWorkClip	Hymn for the Weekend					MusicalWorkClip	PT3M34S	PARLOPHONE	ISNI::0000000106752455	Ben Mor	ISNI::000000083543625	Beyonce	ISNI::0000000114914936	Original	FALSE	FALSE	en	en	2016	GB				
+SU04.02	4	2	1	R1		FALSE			7.5			true	FALSE	22	0		3.98														
+# TV Show Video																															
+RE03.02	5	R1	2056301	CBS::THE_DAILY_SHOW_9001		THE DAILY SHOW				Jon Stewart	ISNI::0000000131187953 	Episode	CBS Television	TVProgramme																	
+AS03.02	5	T1	1805211A			CBS::THE_DAILY_SHOW_9001	TvShowVideo	The Daily Show					TvShowProgram	PT22M	CBS Television	ISNI::0000000106752455	Neal Brennan	ISNI::000000092890389			Original	FALSE	FALSE	en	en	2016	US				
+SU04.02	5	1	1	R1		FALSE			7.5			true	false	22	0		3.46														
+SU04.02	5	2	2	R1		FALSE			7.5	CBS	2015-02-08T22:20:58Z 	true	false	20	0		1.73	Christmas offer 	2010-12-01	2016-12-31	http://www.MySampleOffer.com/TVShow/V456										
+# Serie with 2 complete seasons sample																															
+RE03.02	6	R1	37026425	MGM::STARGATE_SG1_3950_1_FR	027616152572	Stargate SG-1	La porte des 	Stargate SG-1				Series	MGM Networks Inc.	TVProgramme																	
+AS03.02	6	S1	370264251			MGM::STARGATE_SG1_3950_1_FR	Season	Stargate SG-1 Saison 1	Saison 1	Stargate SG-1 Season 1	1		Action	PT20H12M	MGM Worldwide Television Productions		Mario Azzopardi|William Gereghty|David Warry-Smith|Martin Wood|Jonathan Glassner		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E1	370264251A		10-5240/F52C-6D43-E1A5-3BF4-A955-O	MGM::STARGATE_SG1_3950_1_FR	Episode	"""Enfants des Dieux, 1"		Children of the Gods: Part 1	1	1	Action	PT44M	MGM Worldwide Television Productions		Mario Azzopardi		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E2	370264251B		10-5240/27E0-53FA-F5C2-BC06-A953-S	MGM::STARGATE_SG1_3950_2_FR	Episode	"""Enfants des Dieux, 2"		Children of the Gods: Part 2	1	2	Action	PT44M	MGM Worldwide Television Productions		Mario Azzopardi		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E3	370264251C			MGM::STARGATE_SG1_3955_FR	Episode	L'ennemi int		The Enemy Within	1	3	Action	PT1H0M	MGM Worldwide Television Productions		Dennis Berry		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E4	370264251D			MGM::STARGATE_SG1_3961_FR	Episode	Emancipation compl		Complete Emancipation	1	4	Action	PT1H0M	MGM Worldwide Television Productions		Jeff Woulnough		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E5	370264251E			MGM::STARGATE_SG1_3956_FR	Episode	La th		The Broca Divide	1	5	Action	PT1H0M	MGM Worldwide Television Productions		William Gereghty		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E6	370264251F			MGM::STARGATE_SG1_3954_FR	Episode	Le premier commandement		The First Commandment	1	6	Action	PT1H0M	MGM Worldwide Television Productions		Dennis Berry		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E7	370264251G			MGM::STARGATE_SG1_3959_FR	Episode	Double		Cold Lazarus	1	7	Action	PT1H0M	MGM Worldwide Television Productions		Ken Girotti		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E8	370264251H			MGM::STARGATE_SG1_3953_FR	Episode	Les nox		The Nox	1	8	Action	PT1H0M	MGM Worldwide Television Productions		Charles Correll		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E9	370264251I			MGM::STARGATE_SG1_3957_FR	Episode	Les d		Brief Candle	1	9	Action	PT1H0M	MGM Worldwide Television Productions		Mario Azzopardi		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E10	370264251J			MGM::STARGATE_SG1_3968_FR	Episode	Le marteau de Thor		Thor's Hammer	1	10	Action	PT1H0M	MGM Worldwide Television Productions		Brad Turner		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E11	370264251K			MGM::STARGATE_SG1_3963_FR	Episode	Le supplice de Tantale		The Torment of Tantalus	1	11	Action	PT1H0M	MGM Worldwide Television Productions		Jonathan Glassner		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E12	370264251L			MGM::STARGATE_SG1_3962_FR	Episode	Retour sur Chulak		Bloodlines	1	12	Action	PT1H0M	MGM Worldwide Television Productions		Mario Azzopardi|Jeff King		Richard Dean Anderson|Amanda Tapping|Christopher Judge		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E13	370264251M		10-5240/8B0F-9AC7-543C-E643-7A15-O	MGM::STARGATE_SG1_3965_FR	Episode	Le feu et l'eau		Fire and Water	1	13	Action	PT1H0M	MGM Worldwide Television Productions		Allan Eastman		Richard Dean Anderson|Amanda Tapping|Christopher Judge		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E14	370264251N		10-5240/C4F7-D0F7-62DA-5BFE-EE41-Y	MGM::STARGATE_SG1_3964_FR	Episode	Hathor		Hathor	1	14	Action	PT1H0M	MGM Worldwide Television Productions		Brad Turner		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E15	370264251O			MGM::STARGATE_SG1_3969_FR	Episode	Cassandra		Singularity	1	15	Action	PT1H0M	MGM Worldwide Television Productions		Mario Azzopardi		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E16	370264251P			MGM::STARGATE_SG1_3970_FR	Episode	Le proc		Cor-ai	1	16	Action	PT1H0M	MGM Worldwide Television Productions		Mario Azzopardi		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E17	370264251Q		10-5240/2965-C2AC-E842-0BCC-5B09-U	MGM::STARGATE_SG1_3972_FR	Episode	Les r		Enigma	1	17	Action	PT1H0M	MGM Worldwide Television Productions		Allan Eastman		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E18	370264251R			MGM::STARGATE_SG1_3966_FR	Episode	Portes disparus		Solitudes	1	18	Action	PT1H0M	MGM Worldwide Television Productions		Martin Wood		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E19	370264251S			MGM::STARGATE_SG1_3971_FR	Episode	Les doubles robotiques		Tin Man	1	19	Action	PT1H0M	MGM Worldwide Television Productions		Jimmy Kaufman		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E20	370264251T			MGM::STARGATE_SG1_3960_FR	Episode	Une dimension trop r		There But for the Grace of God	1	20	Action	PT1H0M	MGM Worldwide Television Productions		David Warry-Smith		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E21	370264251U			MGM::STARGATE_SG1_3976_FR	Episode	D		Politics	1	21	Action	PT1H0M	MGM Worldwide Television Productions		Martin Wood		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S1E22	370264251V			MGM::STARGATE_SG1_3974_FR	Episode	Dans le nid du serpent		Within the Serpent's Grasp	1	22	Action	PT1H0M	MGM Worldwide Television Productions		David Warry-Smith|Jonathan Glassner		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1997	CA|US				
+AS03.02	6	S2	370264252			MGM::STARGATE_SG1_3950_1_FR	Season	Stargate SG-1 Saison 2	Saison 2	Stargate SG-1 Season 2	2		Action	PT20H12M	MGM Worldwide Television Productions		Mario Azzopardi|William Gereghty|David Warry-Smith|Martin Wood|Jonathan Glassner		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E1	370264252A			MGM::STARGATE_SG1_3950_1_FR	Episode	Le Repaire du Serpent		The Serpent's Lair	2	1	Action	PT1H0M	MGM Worldwide Television Productions		Jonathan Glassner		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E2	370264252B			MGM::STARGATE_SG1_3950_2_FR	Episode	La T		In the Line of Duty	2	2	Action	PT1H0M	MGM Worldwide Television Productions		Martin Wood		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E3	370264252C			MGM::STARGATE_SG1_3955_FR	Episode	Perp		Prisoners	2	3	Action	PT1H0M	MGM Worldwide Television Productions		David Warry-Smith		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E4	370264252D			MGM::STARGATE_SG1_3961_FR	Episode	Le Ma		The Gamekeeper	2	4	Action	PT1H0M	MGM Worldwide Television Productions		Martin Wood		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E5	370264252E			MGM::STARGATE_SG1_3956_FR	Episode	La Princesse Shyla		Need	2	5	Action	PT1H0M	MGM Worldwide Television Productions		David Warry-Smith		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E6	370264252F			MGM::STARGATE_SG1_3954_FR	Episode	L'í		Thor's Chariot	2	6	Action	PT1H0M	MGM Worldwide Television Productions		William Gereghty		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E7	370264252G			MGM::STARGATE_SG1_3959_FR	Episode	Un message dans une bouteille		Message in a bottle	2	7	Action	PT1H0M	MGM Worldwide Television Productions		David Warry-Smith		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E8	370264252H			MGM::STARGATE_SG1_3953_FR	Episode	Conseil de famille		Family	2	8	Action	PT1H0M	MGM Worldwide Television Productions		William Gereghty		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E9	370264252I			MGM::STARGATE_SG1_3957_FR	Episode	Secrets		Secrets	2	9	Action	PT1H0M	MGM Worldwide Television Productions		Duane Clark		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E10	370264252J			MGM::STARGATE_SG1_3968_FR	Episode	Le Fl		Bane	2	10	Action	PT1H0M	MGM Worldwide Television Productions		David Warry-Smith		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E11	370264252K			MGM::STARGATE_SG1_3963_FR	Episode	La Tok'ra (1/2)		The Tok'ra	2	11	Action	PT1H0M	MGM Worldwide Television Productions		Jonathan Glassner		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E12	370264252L			MGM::STARGATE_SG1_3962_FR	Episode	La Tok'ra (2/2)		The Tok'ra	2	12	Action	PT1H0M	MGM Worldwide Television Productions		Jonathan Glassner		Richard Dean Anderson|Amanda Tapping|Christopher Judge		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E13	370264252M			MGM::STARGATE_SG1_3965_FR	Episode	Les Esprits		Spirits	2	13	Action	PT1H0M	MGM Worldwide Television Productions		Martin Wood		Richard Dean Anderson|Amanda Tapping|Christopher Judge		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E14	370264252N			MGM::STARGATE_SG1_3964_FR	Episode	La Clef de vo		Touchstone	2	14	Action	PT1H0M	MGM Worldwide Television Productions		Brad Turner		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E15	370264252O			MGM::STARGATE_SG1_3969_FR	Episode	Une Question de temps		A Matter of Time	2	15	Action	PT1H0M	MGM Worldwide Television Productions		David Warry-Smith		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E16	370264252P			MGM::STARGATE_SG1_3970_FR	Episode	La Cinqui		The Fifth Race	2	16	Action	PT1H0M	MGM Worldwide Television Productions		Martin Wood		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E17	370264252Q			MGM::STARGATE_SG1_3972_FR	Episode	Transfert		Holiday	2	17	Action	PT1H0M	MGM Worldwide Television Productions		David Warry-Smith		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E18	370264252R			MGM::STARGATE_SG1_3966_FR	Episode	La Col		Serpent's Song	2	18	Action	PT1H0M	MGM Worldwide Television Productions		Peter DeLuise		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E19	370264252S			MGM::STARGATE_SG1_3971_FR	Episode	Le Faux pas		One False Step	2	19	Action	PT1H0M	MGM Worldwide Television Productions		William Corcoran		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E20	370264252T			MGM::STARGATE_SG1_3960_FR	Episode	L'Ennemi invisible		Show and Tell	2	20	Action	PT1H0M	MGM Worldwide Television Productions		Peter DeLuise		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E21	370264252U			MGM::STARGATE_SG1_3976_FR	Episode	1969		1969	2	21	Action	PT1H0M	MGM Worldwide Television Productions		Charles Correll		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+AS03.02	6	S2E22	370264252V			MGM::STARGATE_SG1_3974_FR	Episode	Apr		Out of Mind	2	22	Action	PT1H0M	MGM Worldwide Television Productions		Martin Wood		Richard Dean Anderson|Michael Shanks|Amanda Tapping		Dubbed	FALSE	FALSE	en	fr	1998	CA|US				
+RE02	6	SR1	370264251-1		S1E1|S1E2																										
+RE02	6	SR2	370264251-2		S1E1|S1E2|S1E4|S1E20																										
+RE02	6	SR3	370264251-3		S1E1|S2E1|S2E5																										
+SU04.02	6	1	1	R1		FALSE			7.5			true	false	300	0		80.18														
+SU04.02	6	1	2	SR1		FALSE			7.5			true	false	22	0		3.46														
+SU04.02	6	1	3	SR3		FALSE			7.5			true	false	100	0		15.22														
+SU04.02	6	1	4		S1E4	FALSE			7.5			true	false	20	0		1.73														
+SU04.02	6	1	5		S2	TRUE			7.5			true	false	40	0		2.23														
+SU04.02	6	2	6	R1		FALSE			4			true	false	200	0		20														
+SU04.02	6	3	7	R1		FALSE			4			true	false	1200	0		180														
+# Live event video sample																															
+RE03.02	7	R1	999999951	LEV::154-483402	771028931224	"""Gad Elmaleh, Papa est en haut, la derni"				Gad Elmaleh	IPI::00123456789	LiveEventVideo	TF1 Video	TVProgramme																	
+AS03.02	7	A1	999999951A	00000003472F0000K00000000E			TheatricalWorkVideo	"""Gad Elmaleh, Papa est en haut, la derni"					Action	PT2H	TF1 Productions		Jean-Louis Cap		Gad Elmaleh		Original	FALSE	FALSE	fr		2008	FR				
+SU04.02	7	1	1	R1								true	false	358	0		23.78														
+# Video chapter sample																															
+RE03.02	8	R1	999999353	LEV::154-483402	771222931224	"""Gad Elmaleh, Papa est en haut, la derni"				Gad Elmaleh	IPI::00123456789	Bundle	TF1 Video	TVProgramme																	
+AS03.02	8	A1	999999353A				VideoChapter	Intro					Action	PT5M09S	TF1 Productions		Jean-Louis Cap		Gad Elmaleh		Original	FALSE	FALSE	fr		2008	FR				
+AS03.02	8	A2	999999353B				VideoChapter	Le coup de vieux					Action	PT5M26S	TF1 Productions		Jean-Louis Cap		Gad Elmaleh		Original	FALSE	FALSE	fr		2008	FR				
+AS03.02	8	A3	999999353C				VideoChapter	Les fran					Action	PT5M05S	TF1 Productions		Jean-Louis Cap		Gad Elmaleh		Original	FALSE	FALSE	fr		2008	FR				
+AS03.02	8	A4	999999353D				VideoChapter	Tecktonik et g					Action	PT7M23S	TF1 Productions		Jean-Louis Cap		Gad Elmaleh		Original	FALSE	FALSE	fr		2008	FR				
+RE02	8	R2	999999353-1		A2|A3																										
+SU04.02	8	2	1	R1								true	false	100	0		8.99														
+SU04.02	8	2	2	R2								true	false	20	0		1.49														
+# Live event video sample																															
+RE03.02	9	R1	399563899	LEV::178-59492	891222931235	Robin Williams : Live On Broadway				Robin Williams	ISNI::0000000118795962 	LiveEventVideo		Live																	
+AS03.02	9	A1	399563899A				TheatricalWorkVideo	Robin Williams : Live On Broadway					Action	PT1H39M0S	Cream Cheese Films|Blue Wolf Films		Marty Callner|Bill Crooks	ISNI::0000000003339000|	Robin Williams	ISNI::0000000118795962 	Original	FALSE	FALSE	en		2002	US				
+CU01.01	9	A1	PT23M01S	PT7M24S	GBF079011270	T0120210181	Two Step	Dave Matthews Band		David J. Matthews|Leroi Moore|Stefan Lessard|Boyd Tinsley|Carter Beauford	ISNI::0000000114514377|ISNI::0000000057307629|ISNI::0000000050952908|ISNI::0000000040440650|ISNI::0000000119323588																				
+CU01.01	9	A1	PT1H02M03S	PT2M49S	GBF079010993	T0003212345	One Love/People Get Ready	Bob Marley & The Wailers		Bob Marley|Curtis Mayfield	|ISNI::0000000063037346																				
+SU04.02	9	3	1	R1		FALSE			1.33			TRUE	false	102	0				2014-08-01	2015-07-31	http:/xxx.com/12345rgs										
+# Feature film package sample																															
+RE03.02	10	R1	412447300	FV::E456R897Z435	2786290000000	Le meilleur de Clint Eastwood						Bundle	FNAC Video	TVProgramme																	
+AS03.02	10	A1	412447300A	45600001F7650000Q00000000X	10-4130/8B0F-9AC7-543C-E643-7A15-O	Filmax::112	FeatureFilm	Impitoyable		Unforgiven			Drama	PT2H11M	Warner Bros.		Clint Eastwood		Clint Eastwood|Gene Ackman|Morgan Freeman		Subtitled	TRUE	FALSE	en	fr	1992	US				
+AS03.02	10	A2	412447300B	00007701F7650000Q00000000X	10-4870/CR0F-9B4-893D-V5643-8J16-F	Filmax::970	FeatureFilm	Million Dollar Baby		Million Dollar Baby			Drama	PT2H12M	Malpaso Productions|Warner Bros.		Clint Eastwood		Hilary Swank|Morgan Freeman|Clint Eastwood		Subtitled	TRUE	FALSE	en	fr	2004	US				
+AS03.02	10	A3	412447300C	00000001F7658800Q00000000X	10-4982/VR0G-8E4-672D-A523-8H26-R	Filmax::365	FeatureFilm	Gran Torino		Gran Torino			Drama	PT1H56M	Matten Productions		Clint Eastwood		Bee Vang|Clint Eastwood|Christopher Carley		Subtitled	TRUE	FALSE	en	fr	2008	US				
+CU02	10	A3	2134235243	GETTY::P15423890432|ref::1548934566	Stade de France	GraphicalWork	1995	Michel Macary	ISNI::0000000081266409	Architect		PT2M5S			Gallimard	ISNI::000000007654345	FTVStudio	ISNI::00000000352333													
+CU02	10	A3	1234254554		Le Lion	LiteraryWork	1958	JOSEPH KESSEL	IPI::00016143420	Author		PT2M5S	1500	fr	Gallimard	ISBN::978-2-07	FTVStudio	ISNI::00000000352444													
+SU04.02	10	2	1	R1		TRUE	HighDefinition	Lossless	4.5			true	false	100	0		15.99		2010-12-01												
+SU04.02	10	1	2		A1	TRUE	HighDefinition	Lossless	4.5			true	false	100	0		7.99		2010-12-01												
+FOOT	126	126	3	10	10																										
